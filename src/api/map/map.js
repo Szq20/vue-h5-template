@@ -20,5 +20,5 @@ export  async function gotoTarget ({address}) {
     const gaodeUrl = getMapScheme(from, to, "gaode")
     // const baiduUrl = getMapScheme(from, to, "baidu")
     console.log(gaodeUrl);
-    return gaodeUrl
+    return {gaodeUrl,to}
 }
